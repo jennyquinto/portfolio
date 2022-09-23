@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Vanessa V | Creative Front-end Developer</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </header>
+    <main class="home__main">
+        <section class="content-inf__main1">
+            <h1>CONTACT</h1>
+            <h2>Have a cool project in mind, and think I can help you with it?<br>Feel free to e-mail me at
+                <a href="mailto:jennyvanessaq@gmail.com">jennyvanessaq@gmail.com</a><br>
+            </h2>
+            <div class="icon__div">
+                <div class="location">
+                    <a href="https://www.google.es/maps/place/Blas+de+lezo+urbanization+step+II/@6.2608711,-75.6163372,17z/data=!3m1!4b1!4m6!3m5!1s0x8e442963fe07922f:0xfe6fc9176eb0e243!8m2!3d6.2608658!4d-75.6141485!16s%2Fg%2F11hhtwvjl5?hl=es">
+                        <img src="../img/pin.svg" alt="Pin icon" class="pin">
+                    </a>
+                    <h3>San Javier<br><strong>Medellín CO</strong></h3>
+                </div>
+                <div class="social">                    
+                    <div>
+                        <div class="linkedin">                                                
+                        </div>
+                        <a href="https://www.linkedin.com/in/jenny-vanessa-quinto-cordoba-b11880143" class="alinkedin"></a>    
+                        <img src="../img/linkedin.svg" alt="linkedin icon" class="icon">
+                    </div>
+                    <div>
+                        <div class="linkedin">
+                            <a href="https://twitter.com/Phoenix71991" class="alinkedin"></a>                        
+                        </div>
+                        <img src="../img/twitter.svg" alt="linkedin icon" class="twitter">
+                    </div>
+                    
+                </div>
+            </div>
+            <form class="form__contact" name="contact">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email">
+                <textarea class="txtArea" name="message" placeholder="Message..." required></textarea>
+                <button type="submit" class="button-send-contact ribbon-outset border toPortfolio-a__main">
+                    <span class="send">
+                        <span class="text">SEND</span>
+                    </span>
+                </button>
+            </form>
+        </section>
+        <div class="window-menu__main1 hidden" id="navigationMenu">
+            <nav class="nav-menu__main">
+                <ul class="nav__main">
+                    <li id="homePage" class="option-nav-menu">home<div id="home" class="pointerPage hidden"></div>
+                    </li>
+                    <li id="porfolioPage" class="option-nav-menu">portfolio<div id="portfolio"
+                            class="pointerPage hidden"></div>
+                    </li>
+                    <li id="aboutPage" class="option-nav-menu">about<div id="about" class="pointerPage hidden"></div>
+                    </li>
+                    <li id="contactPage" class="option-nav-menu">contact<div id="contact" class="pointerPage hidden">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <script src="../script/contact.js"></script>
+</body>
+
+</html>
